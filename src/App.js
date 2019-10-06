@@ -4,7 +4,7 @@ import './styles/index.css';
 
 function App() {
   return (
-    <a href="#" className="sobre">Sobre</a>
+    <a href="#to-do" className="sobre">Sobre</a>
   );
 }
 
