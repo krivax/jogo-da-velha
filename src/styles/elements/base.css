@@ -1,9 +1,9 @@
 
-html,
+
 body {
-  background-color:var(--color-titanium);
+  background-color: var(--color-second);
   font-family: Montserrat, sans-serif;
-  color: var(--color-gray);
+  color: var(--color-fifth);
 }
 
 a {
