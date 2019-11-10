@@ -1,0 +1,35 @@
+.menu{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    right: 10px;
+    position: fixed;
+    top: 10px;
+
+}
+
+.menuHamburger {
+    position: relative;
+    display: block;
+    background-color: var(--color-negative);
+    width: 30px;
+    height: 1px;
+    top: 25px;
+    left: 15px;
+}
+.menuHamburger:before,
+.menuHamburger:after {
+    background-color: var(--color-negative);
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+}
+.menuHamburger:before{
+    top: -10px;
+}
+.menuHamburger:after{
+    bottom: -10px;
+}
