@@ -1,10 +1,14 @@
 import React from 'react';
-import './App.css';
 import './styles/index.css';
+import Sobre from './object/Sobre';
+import Logo from './object/Logo';
 
 function App() {
   return (
-    <a href="#to-do" className="sobre">Sobre</a>
+    <div>
+    <Logo />
+    <Sobre />
+    </div>
   );
 }
 
