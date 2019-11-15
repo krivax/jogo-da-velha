@@ -4,11 +4,7 @@ import './styles.css';
 
 const Menu = ()=> {
 
-    return(<div className="menu">
-        <span className="menuHamburger" ></span>
-        <span className="menuHamburger" ></span>
-        <span className="menuHamburger" ></span>
-        </div>)
+    return(<a href="#menu" className="menu"><span className="center">Menu</span></a>)
 
 }
 
